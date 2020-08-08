@@ -1,0 +1,11 @@
+<h1> <%= @recipe.name %> </h1>
+
+
+
+<p>Known allergens: </p>
+<br>
+<br>
+<p> <%= button_to "Go to Index Page", recipes_path, method: :get %> </p>
+<br>
+<br>
+<p> <%= button_to "Delete", recipe_path, method: :delete %> </p>
